@@ -1,0 +1,14 @@
+:root{
+    /* Colors */
+
+    --primery-color: hsl(4, 100%, 67%);
+    --neutral-slate-grey:hsl(234, 29%, 20%);
+    --neutal-charcoal-Grey: hsl(235, 18%, 26%);
+    --neutral-grey: hsl(231, 7%, 60%);
+    --color-white:hsl(0, 0%, 100%);
+
+    /* Font weights */
+
+    --fw4: 400;
+    --fw7: 700; 
+}

@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .main .container{
+        display: block;
+        position: relative;
+    }
+
+    .main .container .image{
+        display: none;
+    }
+
+    .main .container .image-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .text{
+        margin-bottom: 10px;
+    }
+
+    .main .container .infos-main .email-form{
+        margin: 10px 0 10px 0;
+    }
+}

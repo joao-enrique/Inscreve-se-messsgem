@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter sign-up form with success message solution</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <div class="container" id="container">
+            <div class="image-mobile">
+                <img src="./src/img/illustration-sign-up-mobile.svg" alt="">
+            </div>
+            <div class="infos-main">
+                <h1 class="title">Stay updated!</h1>
+                <p class="text">Join 60,000+ product managers receiving monthly updates on:</p>
+                <p><img class="icon-list" src="./src/img/icon-list.svg" alt="Lista"> <span class="text-list">Product discovery and building what matters</span></p>
+                <p><img class="icon-list" src="./src/img/icon-list.svg" alt="Lista"> <span class="text-list"> Measuring to ensure updates are a success</span></p>
+                <p><img class="icon-list" src="./src/img/icon-list.svg" alt="Lista"> <span class="text-list"> And much more!</span></p>
+
+                <form class="form" action="">
+                    <div class="email-form">
+                        <span>Email address</span>
+                        <span id="error-message">Valid email Required</span>
+                        <input class="email-input" type="email" name="email" id="email" placeholder="email@company.com">
+                    </div>
+                    <input class="btn-submit" type="button" value="Subscribe to monthly newsletter" id="btn-submit" onclick="validar()">
+                </form>
+            </div>
+
+            <div class="image">
+                <img src = "./src/img/illustration-sign-up-desktop.svg" alt="ilustration desktop">
+            </div>
+        </div>
+
+        <div class="sucess-message" id="sucess-message">
+            <div class="image">
+                <img src="./src/img/icon-success.svg" alt="Sucess">
+            </div>
+            <div class="infos">
+                <h1 class="title">Thanks for subscribing!</h1>
+                <p class="text">A confirmation email has been sent to ash@loremcompany.com. 
+                    Please open it and click the button inside to confirm your subscription.</p>
+                <input type="button" class="btn-submit" value="Dismiss message" id="btn-dimiss" onclick="back()">
+            </div>
+        </div>
+    </section>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
