@@ -1,6 +1,6 @@
 <h1 align="center">Mensagem de sucesso - João 👾</h1>
 
-![Imagem do projeto finalizado](Imagens/portifolio.png)
+![Imagem do projeto finalizado](message.png)
 
 <h4 align="center"><a href="https://jedev1.github.io/Meu-portifolio/">Confira o projeto aqui</a></h4>
 
