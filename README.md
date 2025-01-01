@@ -2,7 +2,7 @@
 
 ![Imagem do projeto finalizado](message.png)
 
-<h4 align="center"><a href="https://jedev1.github.io/Inscreve-se-messsgem/">Confira o projeto aqui</a></h4>
+<h4 align="center"><a href="https://jedev1.github.io/Inscreve-se-messsgem/" target="_blank">Confira o projeto aqui</a></h4>
 
 ---
 
